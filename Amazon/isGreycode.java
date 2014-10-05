@@ -16,5 +16,5 @@ public static boolean isGreycode(byte s1, byte s2){
 				}
 			}
 		}
-		return true;
+		return counter == 1 ? true : false;
 	}
